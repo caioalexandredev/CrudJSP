@@ -15,7 +15,7 @@
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link href="css/login.css" rel="stylesheet">
+        <link href="css/login.css?v2" rel="stylesheet">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <!------ Include the above in your HEAD tag ---------->
@@ -32,7 +32,7 @@
     <body>
 
         <div id="login">
-            <h3 class="text-center text-white pt-5">Login form</h3>
+            <h3 class="text-center text-white pt-5">Login de Usuário</h3>
             <div class="container">
                 <div id="login-row" class="row justify-content-center align-items-center">
                     <div id="login-column" class="col-md-6">
@@ -48,11 +48,7 @@
                                     <input type="text" name="txtsenha" id="password" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
-                                </div>
-                                <div id="register-link" class="text-right">
-                                    <a href="#" class="text-info">Register here</a>
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" style="width: 100%" value="Fazer Login">
                                 </div>
                             </form>
                         </div>

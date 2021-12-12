@@ -48,7 +48,7 @@
                                     <input type="text" name="txtsenha" id="password" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <input type="submit" name="submit" class="btn btn-info btn-md" style="width: 100%" value="Fazer Login">
+                                    <input type="submit" name="submit" class="btn btn-info btn-md" value="Fazer Login">
                                 </div>
                             </form>
                         </div>
